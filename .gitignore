@@ -1,0 +1,11 @@
+# Claude Code
+.claude/
+
+# System files
+nul
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+# robots.txt for IgniteTech
+User-agent: *
+Allow: /
+
+Sitemap: https://ignitetech.com/sitemap.xml

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgniteTech | Where Software Goes to Thrive</title>
+    <meta name="description" content="IgniteTech is a global, AI-first enterprise software company. We acquire, revitalize, and support mission-critical solutions for organizations worldwide.">
+    <meta name="keywords" content="IgniteTech, enterprise software, AI, artificial intelligence, MyPersonas, Eloquens, software solutions">
+    <meta name="author" content="IgniteTech">
+    <meta name="theme-color" content="#141414">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="IgniteTech | Where Software Goes to Thrive">
+    <meta property="og:description" content="IgniteTech is a global, AI-first enterprise software company. We acquire, revitalize, and support mission-critical solutions for organizations worldwide.">
+    <meta property="og:image" content="assets/og-image.webp">
+    <meta property="og:url" content="https://ignitetech.com">
+    <meta property="og:site_name" content="IgniteTech">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IgniteTech | Where Software Goes to Thrive">
+    <meta name="twitter:description" content="IgniteTech is a global, AI-first enterprise software company.">
+    <meta name="twitter:image" content="assets/og-image.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/Vector.svg">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Lottie Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash" id="splash">
+        <div class="splash__animation" id="splashAnimation"></div>
+    </div>
+
+    <!-- Navbar - Outside Frame -->
+    <nav class="navbar">
+        <div class="navbar__inner">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <div class="logo__flame">
+                    <!-- Static Flame SVG -->
+                    <img src="assets/Vector.svg" alt="" class="logo__flame-static">
+                    <!-- Animated Flame Lottie Container -->
+                    <div class="logo__flame-lottie" id="fireLottie"></div>
+                </div>
+                <img src="assets/IGNITETECH.svg" alt="IgniteTech" class="logo__text">
+            </a>
+
+            <!-- Nav Links -->
+            <ul class="nav-links">
+                <li><a href="#">Software</a></li>
+                <li><a href="#">AI</a></li>
+                <li><a href="#">About</a></li>
+                <li class="nav-links__item--has-dropdown">
+                    <a href="#" class="nav-links__dropdown">
+                        More
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown__item">Leadership</a>
+                        <a href="#" class="dropdown__item">News</a>
+                        <a href="#" class="dropdown__item">Careers</a>
+                        <a href="#" class="dropdown__item">Events</a>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input type="text" placeholder="What are you looking for?" class="search-bar__input">
+                <button class="search-bar__btn">Ask AI</button>
+            </div>
+
+            <!-- Contact Button -->
+            <a href="#" class="btn btn--outline">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Main Frame Container with Stroke Border -->
+        <div class="frame">
+            <!-- Unicorn Studio Animated Background -->
+            <div class="hero__background">
+                <div data-us-project="P3T0TY11Nag9qqh5596u"></div>
+            </div>
+
+            <!-- Hero Content Container -->
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__title-main">The World has changed</span>
+                        <span class="hero__title-accent">so have we.</span>
+                    </h1>
+                    <p class="hero__subheader">Where Software Goes to Thrive.</p>
+                    <a href="#" class="btn btn--primary">Latest Innovations</a>
+                </div>
+            </div>
+
+            <!-- Persona Button -->
+            <button class="persona-btn">
+                <img src="assets/mypersona.png" alt="My Persona">
+            </button>
+        </div>
+    </section>
+
+    <!-- Logo Banner -->
+    <section class="logo-banner" data-scroll="fade">
+        <div class="logo-banner__item">
+            <div class="logo-shutter" data-logo1="assets/logos/Screenshot 2026-01-10 at 16.21.47 1.png" data-logo2="assets/logos2/Screenshot 2026-01-12 155411 1.png">
+                <div class="logo-shutter__primary"></div>
+                <div class="logo-shutter__secondary"></div>
+            </div>
+        </div>
+        <div class="logo-banner__item">
+            <div class="logo-shutter" data-logo1="assets/logos/Screenshot 2026-01-10 at 16.04.14 1.png" data-logo2="assets/logos2/Screenshot 2026-01-12 155404 1.png">
+                <div class="logo-shutter__primary"></div>
+                <div class="logo-shutter__secondary"></div>
+            </div>
+        </div>
+        <div class="logo-banner__item">
+            <div class="logo-shutter" data-logo1="assets/logos/Group 11.png" data-logo2="assets/logos2/Screenshot 2026-01-12 155436 1.png">
+                <div class="logo-shutter__primary"></div>
+                <div class="logo-shutter__secondary"></div>
+            </div>
+        </div>
+        <div class="logo-banner__item">
+            <div class="logo-shutter" data-logo1="assets/logos/Remove background project 1.png" data-logo2="assets/logos2/Screenshot 2026-01-12 155428 1.png">
+                <div class="logo-shutter__primary"></div>
+                <div class="logo-shutter__secondary"></div>
+            </div>
+        </div>
+        <div class="logo-banner__item">
+            <div class="logo-shutter" data-logo1="assets/logos/Remove background project (1) 1.png" data-logo2="assets/logos2/image 2.png">
+                <div class="logo-shutter__primary"></div>
+                <div class="logo-shutter__secondary"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about__content">
+            <h2 class="about__title" data-scroll>We are an enterprise software company with <em>AI DNA.</em></h2>
+            <p class="about__text" data-scroll>IgniteTech is a global, AI-first enterprise software company. We acquire, revitalize, and support mission-critical solutions for organizations worldwide—driven by the belief that software can reshape businesses, transform lives, and fuel innovation.</p>
+            <p class="about__text" data-scroll>Since retooling as an AI innovation organization in 2023, we've launched two breakthrough products—<strong>Eloquens AI</strong> and <strong>MyPersonas</strong>—while embedding AI-powered capabilities across our entire software portfolio.</p>
+        </div>
+        <div class="about__video" data-scroll="scale">
+            <video autoplay muted loop playsinline>
+                <source src="assets/DNA.webm" type="video/webm">
+            </video>
+        </div>
+    </section>
+
+    <!-- Lines Divider -->
+    <section class="lines-divider">
+        <div class="lines-divider__inner"></div>
+    </section>
+
+    <!-- AI Innovations Section -->
+    <section class="innovations">
+        <div class="frame">
+            <div class="innovations__header">
+                <h2 class="innovations__title" data-scroll>
+                    Discover our latest <em>AI innovations</em>
+                </h2>
+                <p class="innovations__subtitle" data-scroll>Intelligent tools built to transform how you work.</p>
+            </div>
+
+            <div class="innovations__cards" data-scroll-stagger>
+                <!-- MyPersonas Card -->
+                <div class="innovations__card innovations__card--personas">
+                    <img src="assets/persona.png" alt="MyPersonas" class="innovations__card-logo">
+                    <div class="innovations__card-content">
+                        <p class="innovations__card-text">AI clones of your key employees that answer routine questions 24/7 in 160+ languages, so your experts can focus on high-impact work.</p>
+                        <a href="#" class="innovations__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Eloquens Card -->
+                <div class="innovations__card innovations__card--eloquens">
+                    <img src="assets/eloquens.png" alt="Eloquens AI" class="innovations__card-logo">
+                    <div class="innovations__card-content">
+                        <p class="innovations__card-text">Intelligent email automation that drafts personalized responses around the clock, cutting reply times to under 5 minutes in any language.</p>
+                        <a href="#" class="innovations__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn btn--outline-gradient" data-scroll>Explore More</a>
+        </div>
+    </section>
+
+    <!-- Lines Divider 2 -->
+    <section class="lines-divider">
+        <div class="lines-divider__inner" id="linesDivider2"></div>
+    </section>
+
+    <!-- Global Talent Section -->
+    <section class="talent">
+        <div class="frame">
+            <div class="talent__header">
+                <h2 class="talent__title" data-scroll>
+                    World-class talent. <em>100%</em> global remote.
+                </h2>
+                <p class="talent__subtitle" data-scroll>Work From Anywhere. Prove Your Skills.</p>
+            </div>
+
+            <div class="talent__globe-container" data-scroll="scale">
+                <img src="assets/Globe/World.webp" alt="Global team" class="talent__globe">
+            </div>
+
+            <a href="#" class="btn btn--outline-gradient" data-scroll>Careers</a>
+        </div>
+    </section>
+
+    <!-- Lines Divider 3 -->
+    <section class="lines-divider">
+        <div class="lines-divider__inner" id="linesDivider3"></div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="frame">
+            <div class="news__header">
+                <h2 class="news__title" data-scroll>
+                    IgniteTech is pioneering the <em>next generation</em> of AI.
+                </h2>
+                <p class="news__subtitle" data-scroll>See how ignite is moving the enterprise software world forward.</p>
+            </div>
+
+            <div class="news__cards" data-scroll-stagger>
+                <!-- Card 1 -->
+                <article class="news__card news__card--1">
+                    <div class="news__card-top">
+                        <span class="news__card-date">14 October 2025</span>
+                        <h3 class="news__card-title">Why AI Agents Should be Your Next Business Partners</h3>
+                        <span class="news__card-author">By Eric Vaughan, CEO, IgniteTech</span>
+                    </div>
+                    <div class="news__card-bottom">
+                        <p class="news__card-desc">In the AI journal, CEO Eric Vaughan discusses how AI agents can work alongside your people to achieve things neither could do alone.</p>
+                        <a href="#" class="news__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="news__card news__card--2">
+                    <div class="news__card-top">
+                        <span class="news__card-date">07 October 2025</span>
+                        <h3 class="news__card-title">The AI Advantage: Redefining Enterprise Operations Today</h3>
+                        <span class="news__card-author">With Eric Vaughan, CEO, IgniteTech</span>
+                    </div>
+                    <div class="news__card-bottom">
+                        <p class="news__card-desc">Ignite Tech CEO, Eric Vaughan talks about 'The AI advantage: Redefining Enterprise Operations Today' during his interview on the product Led Growth Leaders podcast, with host Thomas Watkins</p>
+                        <a href="#" class="news__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="news__card news__card--3">
+                    <div class="news__card-top">
+                        <span class="news__card-date">04 September 2025</span>
+                        <h3 class="news__card-title">AI-Driven Growth: Restructuring, Strategy, and Scale</h3>
+                        <span class="news__card-author">With Eric Vaughan, CEO, IgniteTech</span>
+                    </div>
+                    <div class="news__card-bottom">
+                        <p class="news__card-desc">CEO Eric Vaughan speaks to "AI-Driven Growth: Restructuring, Strategy, and Scale" on BDEX's Deconstructing Data podcast, with hosts David Finkelstein and Jessie Lizak</p>
+                        <a href="#" class="news__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="news__card news__card--4">
+                    <div class="news__card-top">
+                        <span class="news__card-date">28 May 2025</span>
+                        <h3 class="news__card-title">Imagine AI 2025</h3>
+                        <span class="news__card-author">By Eric Vaughan, CEO, IgniteTech</span>
+                    </div>
+                    <div class="news__card-bottom">
+                        <p class="news__card-desc">Eric Vaughan, delivers a compelling wake-up call for business leaders and believes embracing GenAI is the single most urgent move for future-proofing your business—and how IgniteTech is leading the way.</p>
+                        <a href="#" class="news__card-link">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 11L11 1M11 1H1M11 1V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <a href="#" class="btn btn--outline-gradient">See all news</a>
+        </div>
+    </section>
+
+    <!-- Lines Divider 4 -->
+    <section class="lines-divider">
+        <div class="lines-divider__inner" id="linesDivider4"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="frame">
+            <!-- Unicorn Studio Animated Background -->
+            <div class="footer__background">
+                <div data-us-project="pfHGT0aXAJhTprgWcGN3"></div>
+            </div>
+
+            <div class="footer__content">
+                <!-- Left Side -->
+                <div class="footer__left">
+                    <a href="#" class="footer__logo" data-scroll>
+                        <div class="logo__flame">
+                            <img src="assets/Vector.svg" alt="" class="logo__flame-static">
+                        </div>
+                        <img src="assets/IGNITETECH.svg" alt="IgniteTech" class="logo__text">
+                    </a>
+                    <p class="footer__tagline" data-scroll>Where Software Goes to Thrive.</p>
+
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__social-link" aria-label="X">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="footer__copyright">
+                        <p>Copyright © 2026 Ignite Enterprise Software Solutions, LLC</p>
+                        <p>IgniteTech is an ESW Capital Group Company | 2028 E Ben White Blvd, Suite 240-2650, Austin, TX 78741 | <a href="#">Legal</a> | <a href="#">Privacy</a> | <a href="#">Terms of Use</a></p>
+                    </div>
+                </div>
+
+                <!-- Right Side - Links -->
+                <div class="footer__right" data-scroll-stagger>
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Software</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">MyPersonas</a></li>
+                            <li><a href="#">Eloquens</a></li>
+                            <li><a href="#">All Software</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Resources</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">AI Initiatives</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <h4 class="footer__column-title">Company</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Cookie Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Unicorn Studio Script -->
+    <script type="text/javascript">
+        !function(){
+            if(!window.UnicornStudio){
+                window.UnicornStudio={isInitialized:!1};
+                var i=document.createElement("script");
+                i.src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.0.1/dist/unicornStudio.umd.js";
+                i.onload=function(){
+                    window.UnicornStudio.isInitialized||(UnicornStudio.init(),window.UnicornStudio.isInitialized=!0)
+                };
+                (document.head || document.body).appendChild(i)
+            }
+        }();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
