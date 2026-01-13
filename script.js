@@ -127,10 +127,9 @@ async function initHeroIntro() {
     const subheader = document.querySelector('.hero__subheader');
     const heroBtn = document.querySelector('.hero__content .btn');
 
-    // Split text into characters
+    // Split text into characters (only for titles)
     const mainChars = splitTextIntoChars(titleMain, 0.03, 'first');
     const accentChars = splitTextIntoChars(titleAccent, 0.03, 'first');
-    const subheaderChars = splitTextIntoChars(subheader, 0.025, 'first');
 
     // Wait for Unicorn Studio background to load
     await waitForUnicornStudio();
@@ -146,20 +145,12 @@ async function initHeroIntro() {
         accentChars.forEach(char => char.classList.add('animate-in'));
     }, 1200);
 
-    // 3. Subheader characters reveal
+    // 3. Subheader, navbar, and button come in together
     setTimeout(() => {
-        subheaderChars.forEach(char => char.classList.add('animate-in'));
-    }, 1800);
-
-    // 4. Navbar slides down (after text finishes)
-    setTimeout(() => {
+        subheader?.classList.add('animate-in');
         navbar?.classList.add('animate-in');
-    }, 2400);
-
-    // 5. Button fades up
-    setTimeout(() => {
         heroBtn?.classList.add('animate-in');
-    }, 2600);
+    }, 1800);
 }
 
 /**

@@ -67,11 +67,22 @@
 
 /* Hero title - character reveal container */
 .hero__title-main,
-.hero__title-accent,
-.hero__subheader {
+.hero__title-accent {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* Subheader - fade slide up */
+.hero__subheader {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero__subheader.animate-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Individual character spans */
